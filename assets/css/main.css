@@ -1927,6 +1927,30 @@ select {
     padding: 16px 20px;
 }
 
+.primary-video {
+    border-radius: 14px;
+    overflow: hidden;
+    height: 207px;
+}
+
+.primary-li {
+    position: relative;
+    min-height: 28px;
+    padding-left: 30px;
+}
+
+.primary-li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%) rotate(45deg);
+    height: 14px;
+    width: 14px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+
 
 
 
