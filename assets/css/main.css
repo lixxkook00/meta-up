@@ -2003,6 +2003,14 @@ select {
     font-size: 14px;
 }
 
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
 .fa-code-input .form-control {
     -webkit-transition: none;
     transition: none;
