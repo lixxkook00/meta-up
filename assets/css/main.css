@@ -1459,6 +1459,10 @@ select:focus-visible{
     color: var(--primary-color) !important;
 }
 
+.gray-text {
+    color: #00000060 !important;
+}
+
 .feedback-item-title {
     font-weight: 800;
     margin-top: 10px;
@@ -1989,6 +1993,47 @@ select {
     border-radius: 50%;
     color: #E7C43D;
     font-size: 14px;
+}
+
+.qr-image img{
+    max-width: 274px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fa-code-input .form-control {
+    -webkit-transition: none;
+    transition: none;
+    width: 46px;
+    height: 48px;
+    text-align: center;
+    padding: 10px !important;
+}
+
+.fa-code-input  .form-control:focus {
+    color: var(--primary-color);
+    background-color: #c1b0fb;
+    border-color: var(--primary-color);
+    outline: 0;
+}
+
+.fa-code-input .form-control.form-control-solid {
+    background-color: #E0DEFB;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.fa-code-input .form-control.form-control-solid:active,
+.fa-code-input .form-control.form-control-solid.active,
+.fa-code-input .form-control.form-control-solid:focus,
+.fa-code-input .form-control.form-control-solid.focus {
+    background-color: #c1b0fb;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 
