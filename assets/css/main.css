@@ -854,7 +854,7 @@ input:focus-visible{
 
 .dashboard-bg{
     min-height: calc(100dvh);
-    padding-top: 95px;
+    padding-top: 70px;
     padding-bottom: 10px;
     /* background-color: #E0E8F3; */
     padding-bottom: 70px;
@@ -892,10 +892,24 @@ input:focus-visible{
 
 .primary-box{
     background-color: #ffffffe3;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: 10px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+    padding: 15px 20px;
+    border-radius: 14px;
+    border: 1px solid var(--primary-color);
+}
+
+.secondary-box {
+    background-color: #F7F7F7;
+    padding: 12px 14px;
+    border-radius: 8px;
+}
+
+.secondary-box+.secondary-box {
+    margin-top: 16px;
+}
+
+.secondary-box.pd-sm+.secondary-box.pd-sm {
+    margin-top: 2px;
 }
 
 .primary-box.pd-15 {
@@ -917,6 +931,7 @@ input:focus-visible{
 .primary-box--gradient {
     color: #fff;
     background-image: var(--primary-gradient);
+    border: none;
 }
 
 .primary-box--gold {
@@ -1214,7 +1229,7 @@ select:focus-visible{
 
 .dashboard-balance-value {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 23px;
     /* letter-spacing: 1px; */
 }
@@ -1225,7 +1240,7 @@ select:focus-visible{
 }
 
 .dashboard-balance-value-small{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .dashboard-balance-title {
@@ -1260,8 +1275,15 @@ select:focus-visible{
     margin-bottom: 8px;
 }
 
-.progress-bar{
-    background-image: linear-gradient(45deg, #5FA6F8 0%, #22BFC6 33%, #00CDAA 100%) !important;
+.infor-process{
+    background-color: #DBDBDB;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 14px 0;
+}
+
+.progress-bar {
+    background-image: var(--primary-gradient);
 }
 
 .staking-process {
@@ -1450,13 +1472,13 @@ select:focus-visible{
     width: 100%;
     padding: 0.775rem 1rem;
     backdrop-filter: blur(1px);
-    font-size: 1.1rem;
+    font-size: 13px;
     font-weight: 600;
     line-height: 1.5;
     color: var(--primary-color);
-    background-color: transparent;
+    background-color: #F7F7F7;
     background-clip: padding-box;
-    border: 2px solid #4A4A4A;
+    border: 2px solid #00000021;
     appearance: none;
     border-radius: 8px;
     box-shadow: inset 0 1px 2px rgba(0,0,0,.075);
@@ -1515,11 +1537,12 @@ select:focus-visible{
 .nav-mobile-wrapper {
     width: 100%;
     max-width: 720px;
-    padding: 0 15px;
+    padding: 0;
 }
 
+.primary-icon,
 .nav-mobile-item.active img {
-    filter: invert(15%) sepia(85%) saturate(7407%) hue-rotate(249deg) brightness(91%) contrast(95%);
+    filter: invert(15%) sepia(100%) saturate(8567%) hue-rotate(249deg) brightness(91%) contrast(95%);
 }
 
 .nav-mobile-item {
@@ -1528,7 +1551,7 @@ select:focus-visible{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 21px 8px;
+    padding: 21px 0px;
 }
 
 .nav-mobile-item-title {
@@ -1768,12 +1791,14 @@ select {
 
 .form .label {
     display: flex;
-    margin-bottom: 16px;
-    font-size: 18px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #666666;
 }
 
 .intro-slide-title {
     font-size: 44px;
+    line-height: 50px;
     font-weight: 600;
     color: var(--primary-color);
 }
@@ -1835,6 +1860,102 @@ select {
     transition: all 0.5s;
     animation: 2s ease-in-out infinite alternate idle;
 }
+
+.header.back {
+    color: var(--primary-color);
+}
+
+.back-icon {
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.back-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.secondary-box.unread .noti-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(150%, -50%);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.noti-title {
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+}
+
+.noti-time {
+    font-size: 12px;
+    color: #636363;
+}
+
+.noti-content {
+    margin-top: 9px;
+    font-size: 13px;
+    color: #636363;
+}
+
+.nav-mobile-back {
+    background-color: #fff;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.progress-bar {
+    height: 6px;
+    border-radius: 3px;
+}
+
+.square {
+    border-radius: 14px !important;
+    font-size: 16px !important;
+    padding: 16px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

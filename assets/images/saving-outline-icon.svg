@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>card-outline</title>
+    <g id="Mining" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Heli---Home" transform="translate(-300, -453)" stroke="#3E30E4" stroke-width="1.5">
+            <g id="card-outline" transform="translate(301, 454)">
+                <rect id="Rectangle" stroke-linecap="round" x="0" y="0" width="18.2222222" height="14" rx="3"></rect>
+                <path d="M0,4.25052083 L18.2222222,4.25052083 M3.5042735,8.90972222 L5.60683761,8.90972222 L5.60683761,9.77777778 L3.5042735,9.77777778 L3.5042735,8.90972222 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

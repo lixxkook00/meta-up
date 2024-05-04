@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
-    <title>Account</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.svg">
+    <title>Home</title>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -20,10 +20,10 @@
 </head>
 
 <body>
-    <!-- MOBILE -->
+    <!-- HEADER -->
     <div class="header">
         <div class="container header-wrapper">
-            <div class="header-infor centering">
+            <a href="/profile.html" class="header-infor centering">
                 <div class="header-infor-avt">
                     <img src="/assets/images/slide-2.png" alt="">
                 </div>
@@ -35,127 +35,122 @@
                         Level 1
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="header-noti centering">
+            <a href="/noti.html" class="header-noti centering">
                 <i class="fa-regular fa-bell"></i>
-            </div>
+            </a>
         </div>
     </div>
 
     <!-- MAIN CONTENT -->
     <div class="dashboard-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-6 col-fit-height">
-                    <a href="#todeposit" class="primary-box primary-box--black d-flex flex-column primary-box--gradient">
-                        <div class="d-flex flex-column align-items-start">
-                            <div class="card-icon mb-3">
-                                <i class="fa-solid fa-network-wired"></i>
-                            </div>
-    
-                            <div class="dashboard-balance-value dashboard-balance-value-large text-center text-lg mb-2">
-                                10,000.00 USD
-                            </div>
-                            <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                Sales Network
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-6 col-fit-height">
-                    <a href="#todeposit" class="primary-box primary-box--black d-flex flex-column primary-box--gold">
-                        <div class="d-flex flex-column align-items-start">
-                            <div class="card-icon card-icon--gold mb-3">
-                                <i class="fa-solid fa-users"></i>
-                            </div>
-    
-                            <div class="dashboard-balance-value dashboard-balance-value-large text-center text-lg mb-2">
-                                69
-                            </div>
-                            <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                Referral
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <div class="intro-slide-subtitle">
+                Welcome to
+            </div>
+            <div class="intro-slide-title">
+                Metaup 
+            </div>
 
-                <div class="col-xl-12">
-                    <div class="grid grid-2 grid-m-1 gap-y-0">
-                        <div data-toggle="modal" data-target="#referralModal" class="primary-box primary-box-cursor primary-box--black pd-15 d-flex flex-column">
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon">
-                                    <i class="fa-solid fa-diagram-project"></i>
+            <div class="grid grid-1 gap-15">
+                <div class="primary-box primary-box--black d-flex flex-column primary-box--gradient mt-4">
+                    <div class="d-flex flex-column align-items-start">
+                        <div class="box-title w-100 text-center mt-3">
+                            META WILL DISTRIBUTION AFTER
+                        </div>
+    
+                        <div class="centering align-items-start w-100 mb-3 mt-2">
+                            <div class="centering flex-column mr-2">
+                                <div id="days" class="box-value xl">
+                                    00
                                 </div>
-                                <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                    Referral Link
+                                <div class="box-desc fw-600 mt-1">
+                                    DAYS
                                 </div>
                             </div>
-                        </div>
-                        <div data-toggle="modal" data-target="#changePasswordModal" class="primary-box primary-box-cursor primary-box--black pd-15 d-flex flex-column">
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon">
-                                    <i class="fa-solid fa-lock"></i>
-                                </div>
-                                <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                    Change Password
+                            <div class="mr-2">
+                                <div class="box-value xl">
+                                    :
                                 </div>
                             </div>
-                        </div>
-                        <div data-toggle="modal" data-target="#authenModal" class="primary-box primary-box-cursor primary-box--black pd-15 d-flex flex-column">
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon">
-                                    <i class="fa-solid fa-user-lock"></i>
+                            <div class="centering flex-column mr-2">
+                                <div id="hours" class="box-value xl">
+                                    00
                                 </div>
-                                <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                    Two-Factor Authentication
+                                <div class="box-desc fw-600 mt-1">
+                                    HOURS
                                 </div>
                             </div>
-                        </div>
-                        <div data-toggle="modal" data-target="#kycModal" class="primary-box primary-box-cursor primary-box--black pd-15 d-flex flex-column">
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon">
-                                    <i class="fa-solid fa-user-shield"></i>
-                                </div>
-                                <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                    Verify Account
+                            <div class="mr-2">
+                                <div class="box-value xl">
+                                    :
                                 </div>
                             </div>
-                        </div>
-                        <div class="primary-box primary-box-cursor primary-box--black pd-15 d-flex flex-column hide-on-pc">
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon">
-                                    <i class="fa-solid fa-right-from-bracket"></i>
+                            <div class="centering flex-column mr-2">
+                                <div id="minutes" class="box-value xl">
+                                    00
                                 </div>
-                                <div class="dashboard-balance-value dashboard-balance-value-small text-center">
-                                   Logout
+                                <div class="box-desc fw-600 mt-1">
+                                    MINUTES
+                                </div>
+                            </div>
+                            <div class="mr-2">
+                                <div class="box-value xl">
+                                    :
+                                </div>
+                            </div>
+                            <div class="centering flex-column mr-2">
+                                <div id="seconds" class="box-value xl">
+                                    00
+                                </div>
+                                <div class="box-desc fw-600 mt-1">
+                                    SECONDS
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+    
+                <div class="package-item primary-box primary-box--black primary-box--gradient d-flex align-items-center justify-content-between">
+                    <div class="d-flex flex-column">
+                        <div class="box-title">
+                            STREAK
+                        </div>
+                        <div class="box-value xl mt-2">
+                            30 days
+                        </div>
+                    </div>
+    
+                    <div class="primary-button white sm">
+                        Receive 5 GEM
+                    </div>
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="primary-box primary-box--black d-flex flex-column justify-content-between col-fit-height">
-                        <div class="d-flex justify-content-between mb-7">
-                            <a href="#" class="primary-text primary-title mb-1">Members</a>
-
-                            <select name="coin" id="coin">
-                                <option value="volvo">Referral</option>
-                                <option value="saab">All</option>
-                                <option value="saab">Tree view</option>
-                            </select>
-                        </div>
-
-                        <div class="dashboard-balance-value dashboard-balance-value-large text-center mt-4 mb-4 flex-1 centering text-gray">
-                            No member to display
-                        </div>
-                        
-                        <div class="centering mt-4">
-                            <button data-toggle="modal" data-target="#referralModal" type="submit" class="primary-button text-white text-sm">Referral Link</button>
-                        </div>
+            <div class="grid grid-2 gap-15 mt-4">
+                <div class="primary-box pt-2 pb-1 centering flex-column">
+                    <img class="primary-icon" src="/assets/images/mining-icon.svg" alt="">
+                    <div class="primary-text primary-box-text mt-1">
+                        Be miner
+                    </div>
+                </div>
+                <div class="primary-box pt-2 pb-1 centering flex-column">
+                    <img class="primary-icon" src="/assets/images/saving-outline-icon.svg" alt="">
+                    <div class="primary-text primary-box-text mt-1">
+                        Saving
+                    </div>
+                </div>
+                <div class="primary-box pt-2 pb-1 centering flex-column">
+                    <img class="primary-icon" src="/assets/images/eco-outline-icon.svg" alt="">
+                    <div class="primary-text primary-box-text mt-1">
+                        Ecommerce
+                    </div>
+                </div>
+                <div class="primary-box pt-2 pb-1 centering flex-column">
+                    <img class="primary-icon" src="/assets/images/member-icon.svg" alt="">
+                    <div class="primary-text primary-box-text mt-1">
+                        Gamefi
                     </div>
                 </div>
             </div>
@@ -178,7 +173,7 @@
             </a>
             <a href="/nft.html" class="nav-mobile-item">
                 <div class="nav-mobile-item-icon">
-                    <img src="/assets/images/logo.svg" alt="">
+                    <img class="idle-ani" src="/assets/images/logo.svg" alt="">
                 </div>
             </a>
             <a href="/stake.html" class="nav-mobile-item">
@@ -202,14 +197,26 @@
     const $query = document.querySelector.bind(document)
     const $$query = document.querySelectorAll.bind(document)
 
-    const toggleNavMobile = () => {
-        $query('.soft-menu').classList.toggle('open')
-        $query('.soft-menu__list').classList.toggle('open')
-    }
+    const countDownDate = new Date("May 15, 2024 15:37:25").getTime();
 
-    $$query('.soft-menu__item').forEach((element) => {
-        element.onclick = () => {
-            toggleNavMobile()
+    const x = setInterval(function() {
+        const now = new Date().getTime();
+
+        const distance = countDownDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        $query('#days').innerText = days
+        $query('#hours').innerText = hours
+        $query('#minutes').innerText = minutes
+        $query('#seconds').innerText = seconds
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
         }
-    })
+    }, 1000);
 </script>

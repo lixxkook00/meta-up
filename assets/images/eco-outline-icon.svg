@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wallet-outline</title>
+    <g id="Mining" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Heli---Home" transform="translate(-111, -527)">
+            <g id="wallet-outline" transform="translate(112, 528)">
+                <rect id="Rectangle" stroke="#3E30E4" stroke-width="1.5" stroke-linejoin="round" x="0" y="2.9787234" width="15.787234" height="11.0212766" rx="3"></rect>
+                <path d="M13.7021277,2.97846402 L13.7021277,1.86132116 C13.7019469,1.3065728 13.4512766,0.780797194 13.0183999,0.427216602 C12.5855231,0.0736360101 12.0155313,-0.0709182469 11.4636912,0.0329306807 L1.53251489,1.70678307 C0.642829303,1.87420974 -0.000613745427,2.64266133 0,3.53703545 L0,5.36170213" id="Path" stroke="#3E30E4" stroke-width="1.5" stroke-linejoin="round"></path>
+                <path d="M12.212766,9.82978723 C11.5547246,9.82978723 11.0212766,9.29633928 11.0212766,8.63829787 C11.0212766,7.98025647 11.5547246,7.44680851 12.212766,7.44680851 C12.8708074,7.44680851 13.4042553,7.98025647 13.4042553,8.63829787 C13.4042553,9.29633928 12.8708074,9.82978723 12.212766,9.82978723 Z" id="Path" fill="#3E30E4" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

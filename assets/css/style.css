@@ -163,8 +163,12 @@
 :root, :host {
   --primary-color: #3E30E4;
   --secondary-color: #E0DEFB;
-  --primary-gradient: linear-gradient(45deg, #3E30E4 0%, #3E30E4 52%, #3E30E4 100%);
+  --primary-gradient: linear-gradient(180deg, rgba(118,107,255,1) 0%, rgba(62,48,228,1) 100%);
   --gradient-gold: linear-gradient(45deg, #C0993D 0%, #D8A824 52%, #FCF49C 100%);
+}
+
+.warning-color {
+  color: #FF1800 !important;
 }
 
 html,body{
@@ -372,9 +376,19 @@ a:hover{
  min-width: 100px;
  border-radius: 24px;
  transition: all 0.3s;
- background-image: var(--primary-gradient);
+ background-color: var(--primary-color);
  cursor: pointer;
  color: #fff;
+}
+
+.primary-button.sm {
+  padding: 5px 20px;
+  font-size: 13px;
+}
+
+.primary-button.white {
+  background-color: #fff;
+  color: var(--primary-color);
 }
 
 .secondary-button {
@@ -393,6 +407,15 @@ a:hover{
   cursor: pointer;
 }
 
+.secondary-button.border {
+  border: 1px solid var(--primary-color) !important; 
+  background-color: #fff;
+}
+
+.secondary-button.sm {
+  font-size: 16px;
+}
+
 .primary-button:hover{
  cursor: pointer;
  /* letter-spacing: 1px; */
@@ -401,7 +424,7 @@ a:hover{
 
 .grid{
  display: grid;
- gap: 10px;
+ gap: 14px;
 }
 
 .grid.gap-20 {
@@ -641,3 +664,45 @@ button:focus {
   color: #fff;
   font-size: 20px;
 }
+
+.box-title {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.box-value {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.box-desc {
+  font-size: 10px;
+}
+
+.primary-box-text {
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
