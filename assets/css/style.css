@@ -407,6 +407,14 @@ a:hover{
   cursor: pointer;
 }
 
+.secondary-button.gray {
+  background-color: #F7F7F7;
+  padding: 6px 38px;
+  font-size: 12px;
+  width: max-content;
+  font-weight: 700;
+}
+
 .secondary-button.border {
   border: 1px solid var(--primary-color) !important; 
   background-color: #fff;

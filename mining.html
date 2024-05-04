@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.svg">
+    <title>Home</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-6.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="container header-wrapper">
+            <a href="/profile.html" class="header-infor centering">
+                <div class="header-infor-avt">
+                    <img src="/assets/images/slide-2.png" alt="">
+                </div>
+                <div class="d-flex flex-column">
+                    <div class="header-infor-name">
+                        LilKanye
+                    </div>
+                    <div class="header-infor-level primary-text">
+                        Level 1
+                    </div>
+                </div>
+            </a>
+
+            <a href="/noti.html" class="header-noti centering">
+                <i class="fa-regular fa-bell"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="dashboard-bg">
+        <div class="container">
+            <div class="grid grid-1 gap-15">
+                <div class="primary-box primary-box--black d-flex flex-column primary-box--gradient mt-4">
+                    <div class="d-flex flex-column align-items-start">
+                        <div class="mining-award centering w-100">
+                            <div class="mining-wrapper">
+                                <span class="box-value">
+                                    42.6240
+                                </span>
+    
+                                <div class="mining-award-currency">
+                                    GEM
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-title w-100 text-center mt-1">
+                            Reward is ready
+                        </div>
+                        <div class="centering w-100 mt-3">
+                            <div class="primary-button white sm pb-2">
+                                Start mining
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="centering">
+                    <div data-toggle="modal" data-target="#boosterModal" class="secondary-button gray">
+                        GET AN EXTRA 300% BOOSTER
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-2 gap-15 mt-4">
+                <div class="primary-box d-flex flex-column primary-text">
+                    <div class="box-value d-flex align-item-center">
+                        1.48
+                        <div class="centering">
+                            <img class="mining-icon" src="/assets/images/diamond-outline.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="box-title w-100 mt-1">
+                        Reward is ready
+                    </div>
+                </div>
+                <div class="primary-box d-flex flex-column primary-text">
+                    <div class="box-value">
+                        20%
+                    </div>
+                    <div class="box-title w-100 mt-1">
+                        Total Booster
+                    </div>
+                </div>
+            </div>
+
+            <div class="primary-box d-flex flex-column primary-text mt-gap">
+                <div class="grid grid-2">
+                    <div class="">
+                        <div class="noti-title text-black">
+                            Member package
+                        </div>
+                        <div class="box-value">
+                            10%
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="noti-title text-black">
+                            Quest
+                        </div>
+                        <div class="box-value">
+                            10%
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="noti-title text-black">
+                            Booster referral
+                        </div>
+                        <div class="box-value">
+                            10%
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="noti-title text-black">
+                            Another
+                        </div>
+                        <div class="box-value">
+                            10%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NAV -->
+    <div class="nav-mobile">
+        <div class="nav-mobile-wrapper centering">
+            <a href="#to-home" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <img src="/assets/images/home-icon.svg" alt="">
+                </div>
+            </a>
+            <a href="/transaction.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <img src="/assets/images/wallet-icon.svg" alt="">
+                </div>
+            </a>
+            <a href="/home.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <img class="idle-ani" src="/assets/images/logo.svg" alt="">
+                </div>
+            </a>
+            <a href="/mining.html" class="nav-mobile-item active">
+                <div class="nav-mobile-item-icon">
+                    <img src="/assets/images/mining-icon.svg" alt="">
+                </div>
+            </a>
+            <a href="/home.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <img src="/assets/images/member-icon.svg" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Booster Modal -->
+    <div class="modal fade" id="boosterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="primary-modal">
+                 <div class="primary-modal-header">
+                    <div class="primary-modal-title text-center w-100 primary-text fs-14">
+                        GET AN EXTRA 300% BOOSTER
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                 </div>
+                 <div class="primary-modal-content mt-1">
+                    <div class="primary-modal-text mb-3 text-center fs-14">
+                        Do you want to buy this booster with 100$ ?
+                    </div>
+                    <div class="grid grid-2 mt-4">
+                        <div class="secondary-button">
+                            No
+                        </div>
+                        <div class="primary-button">
+                            Yes
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script>
+    const $query = document.querySelector.bind(document)
+    const $$query = document.querySelectorAll.bind(document)
+</script>
