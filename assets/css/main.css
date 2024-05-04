@@ -1908,6 +1908,14 @@ select {
     background-color: #fff;
 }
 
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
 .fw-600 {
     font-weight: 600;
 }
@@ -1943,12 +1951,44 @@ select {
     content: "";
     position: absolute;
     left: 0;
-    top: 50%;
-    transform: translate(50%, -50%) rotate(45deg);
-    height: 14px;
-    width: 14px;
+    top: 6px;
+    transform: translate(50%, 0%) rotate(45deg);
+    height: 12px;
+    width: 12px;
     background-color: var(--primary-color);
     border-radius: 3px;
+}
+
+.space {
+    width: 27px;
+    display: flex;
+    height: 33px;
+}
+
+.form-avt {
+    position: relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+.form-avt-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.form-avt-edit {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #E7C43D;
+    font-size: 14px;
 }
 
 
