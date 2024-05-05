@@ -4403,3 +4403,7 @@ select {
 .box-space {
     height: 100px;
 }
+
+.con-wrapper {
+    max-width: 720px;
+}
