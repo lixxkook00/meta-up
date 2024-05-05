@@ -77,7 +77,7 @@
             </ul>
             <div class="tab-content mt-4" id="wallet-tabContent">
             <div class="tab-pane fade show active" id="deposit" role="tabpanel" aria-labelledby="deposit-tab">
-                <div data-toggle="modal" data-target="#packageModal" class="primary-box primary-box--gradient-green mt-3">
+                <div data-toggle="modal" data-target="#confirmModal" class="primary-box primary-box--gradient-green mt-3">
                     <div class="package-name package-name-black fw-600 fs-18">
                         SILVER
                     </div>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
 
-                <div data-toggle="modal" data-target="#packageModal" class="primary-box primary-box--gradient-blue mt-3">
+                <div data-toggle="modal" data-target="#confirmModal" class="primary-box primary-box--gradient-blue mt-3">
                     <div class="package-name package-name-black fw-600 fs-18">
                         PLATINUM
                     </div>
@@ -237,6 +237,37 @@
             </div>
         </div>
 
+    </div>
+
+    <!-- Confirm Modal -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="primary-modal">
+                 <div class="primary-modal-header">
+                    <div class="primary-modal-title text-center w-100 primary-text fs-14">
+                        BUY SILVER PACKAGE
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!-- <i class="fa-solid fa-xmark"></i> -->
+                    </button>
+                 </div>
+                 <div class="primary-modal-content mt-1">
+                    <div class="primary-modal-text mb-3 text-center fs-14">
+                        Do you want to buy SILVER 1 with 100$ ?
+                    </div>
+                    <div class="grid grid-2 mt-4">
+                        <div data-dismiss="modal" aria-label="Close" class="secondary-button">
+                            No
+                        </div>
+                        <div class="primary-button">
+                            Yes
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
