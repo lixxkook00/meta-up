@@ -3795,7 +3795,7 @@ tbody.collapse.show {
 
 .nav-link {
   display: block;
-  padding: .5rem 1rem
+  padding: 4px 10px;
 }
 
 .nav-link:focus,.nav-link:hover {
@@ -3843,12 +3843,12 @@ tbody.collapse.show {
 }
 
 .nav-pills .nav-link {
-  border-radius: .25rem
+  border-radius: 24px;
 }
 
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #007bff
+  background-color: var(--primary-color);
 }
 
 .nav-fill .nav-item {

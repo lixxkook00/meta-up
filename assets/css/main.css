@@ -890,12 +890,18 @@ input:focus-visible{
     margin-right: 8px;
 }
 
-.primary-box{
+.primary-box {
     background-color: #ffffffe3;
     box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
     padding: 15px 20px;
     border-radius: 14px;
     border: 1px solid var(--primary-color);
+}
+
+.primary-box.primary-box-color {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
 }
 
 .secondary-box {
@@ -4202,47 +4208,76 @@ select {
     border-bottom: 1px solid #00000008;
 }
 
+.ranking {
+    padding-top: 50px;
+}
+
+.ranking-item {
+    position: relative;
+    background-color: #E0DEFB;
+    color: var(--primary-color);
+    padding-top: 45px;
+}
+
+.ranking-item.left,
+.ranking-item.right {
+    width: 30%;
+    margin-top: 60px;
+}
+
+.ranking-item.left {
+    border-top-left-radius: 15px;
+}
+
+.ranking-item.right {
+    border-top-right-radius: 15px;
+}
+
+.ranking-item.top {
+    width: 40%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #3E30E4;
+    color: #fff;
+}
+
+.ranking-item-avt {
+    height: 86px;
+    width: 86px;
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.ranking-item.left .ranking-item-content,
+.ranking-item.right  .ranking-item-content{
+    padding: 10px 0 18px;
+}
+
+.ranking-list-item {
+    border-bottom: 1px solid #00000010;
+    padding: 10px 0;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.nav-item {
+    width: 32%;
+    text-align: center;
+}
+
+.nav-pills .nav-link {
+    background-color: #F7F7F7;
+    color: var(--primary-color);
+    font-size: 13px;
+    padding: 5px 0;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.item-b-10+.item-b-10 {
+    margin-top: 20px;
+}
