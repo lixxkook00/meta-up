@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.svg">
+    <title>Saving</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-6.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- BACK HEADER -->
+    <div class="header back justify-content-start">
+        <div class="header-wrapper container">
+            <a href="/wallet.html" class="back-icon">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+
+            <div class="back-title">
+                Saving
+            </div>
+
+            <div class="space"></div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="dashboard-bg">
+        <div class="container">
+            <div data-toggle="modal" data-target="#packageModal" class="primary-box primary-box--black d-flex flex-column primary-box--gradient mt-4">
+                <div class="grid grid-2">
+                    <div class="d-flex flex-column align-items-start mb-1">
+                        <div class="box-title w-100 mt-1">
+                            TOTAL HELI SENT
+                        </div>
+                        <div class="box-value w-100 mt-2">
+                            100
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-start mb-1">
+                        <div class="box-title w-100 mt-1">
+                            ACCUMULATED PROFIT
+                        </div>
+                        <div class="box-value w-100 mt-2">
+                            +30
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-toggle="modal" data-target="#packageModal" class="primary-box primary-box-border mt-3">
+                <div class="package-name primary-text fw-600 fs-18">
+                    12-month package
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total HELI sent
+                        </div>
+                        <div class="fs-20">
+                            100
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Interest rate
+                        </div>
+                        <div class="fs-20 primary-text">
+                            14%
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total profit
+                        </div>
+                        <div class="fs-20">
+                            30
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total submissions
+                        </div>
+                        <div class="centering justify-content-start">
+                            <div class="fs-20 mr-2">
+                                120 
+                            </div>
+                            <i class="fa-solid fa-up-right-from-square primary-text"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-toggle="modal" data-target="#packageModal" class="primary-box primary-box-border mt-3">
+                <div class="package-name primary-text fw-600 fs-18">
+                    6-month package
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total HELI sent
+                        </div>
+                        <div class="fs-20">
+                            100
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Interest rate
+                        </div>
+                        <div class="fs-20 primary-text">
+                            14%
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total profit
+                        </div>
+                        <div class="fs-20">
+                            30
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total submissions
+                        </div>
+                        <div class="centering justify-content-start">
+                            <div class="fs-20 mr-2">
+                                120 
+                            </div>
+                            <i class="fa-solid fa-up-right-from-square primary-text"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-toggle="modal" data-target="#packageModal" class="primary-box primary-box-border mt-3">
+                <div class="package-name primary-text fw-600 fs-18">
+                    3-month package
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total HELI sent
+                        </div>
+                        <div class="fs-20">
+                            100
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Interest rate
+                        </div>
+                        <div class="fs-20 primary-text">
+                            14%
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total profit
+                        </div>
+                        <div class="fs-20">
+                            30
+                        </div>
+                    </div>
+                    <div class="mb-1 fw-600">
+                        <div class="fs-13 primary-text mb-1">
+                            Total submissions
+                        </div>
+                        <div class="centering justify-content-start">
+                            <div class="fs-20 mr-2">
+                                120 
+                            </div>
+                            <i class="fa-solid fa-up-right-from-square primary-text"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booster Modal -->
+    <div class="modal fade" id="packageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="primary-modal">
+                 <div class="primary-modal-header">
+                    <div class="primary-modal-title text-center w-100 primary-text fs-14">
+                        SUBMIT SAVING
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!-- <i class="fa-solid fa-xmark"></i> -->
+                    </button>
+                 </div>
+                 <div class="primary-modal-content mt-1">
+                    <div id="form_withdraw_popup">
+                        <form method="post" novalidate="novalidate" autocomplete="off" id="formPayout">
+                            <input type="hidden" name="txtCurrency" value="XCO">
+                            <input type="hidden" name="token" value="a9dc3b38-0896-4a7a-ad4b-45cca2b11125">
+                            <step data="1" >
+                                <div class="fv-row">
+                                    <label class="form-label fw-semibold fs-6 mb-1 position-relative" style="width: 100%;">
+                                        Please enter the amount you want to Saving
+                                    </label>
+                                    <div class="position-relative mb-3">
+                                        <input class="primary-modal-input w-100" placeholder="Minimum 1 ATH" name="txtAmount" id="amount" required="" type="number" step="any">
+                                        <div class="input-currency primary-text">
+                                            ATH
+                                        </div>
+                                    </div>
+                                    <div class="fs-12">
+                                        Available: 100 ATH
+                                    </div>
+                                </div>
+                            </step>
+                        </form>
+                    </div>
+
+                    <div class="grid grid-2 mt-4">
+                        <div data-dismiss="modal" aria-label="Close" class="secondary-button">
+                            No
+                        </div>
+                        <div class="primary-button">
+                            Yes
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script>
+    const $query = document.querySelector.bind(document)
+    const $$query = document.querySelectorAll.bind(document)
+</script>

@@ -944,6 +944,18 @@ input:focus-visible{
     border: none;
 }
 
+.primary-box--gradient-green {
+    color: #000;
+    background-image: var(--primary-gradient-green);
+    border: none !important;
+}
+
+.primary-box--gradient-blue {
+    color: #000;
+    background-image: var(--primary-gradient-blue);
+    border: none !important;
+}
+
 .primary-box--gold {
     background-image: var(--gradient-gold);
 }
@@ -3398,7 +3410,7 @@ select:focus-visible{
 }
 
 .token-infor:first-child{
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #dddddd2e;
 }
 
 .token-infor-li{
@@ -4352,4 +4364,38 @@ select {
     line-height: 14px;
     background-color: #EFEFEF;
     min-width: unset;
+}
+
+.package-name {
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.package-name::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 30%;
+    height: 2px;
+    background-color: var(--primary-color);
+    transform: translate(-50%, -50%);
+}
+
+.package-name-black::after {
+    background-color: #000;
+}
+
+.input-currency {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+}
+
+.nav-pills.nav-link.nav-link-square {
+    padding: 8px 10px;
+    border-radius: 9px;
 }

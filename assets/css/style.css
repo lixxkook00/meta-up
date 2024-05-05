@@ -164,6 +164,8 @@
   --primary-color: #3E30E4;
   --secondary-color: #E0DEFB;
   --primary-gradient: linear-gradient(180deg, rgba(118,107,255,1) 0%, rgba(62,48,228,1) 100%);
+  --primary-gradient-green: linear-gradient(180deg, #A5FFC0 0%, #4CEF98 100%);
+  --primary-gradient-blue: linear-gradient(180deg, #55FFE9 0%, #03CFE0 100%);
   --gradient-gold: linear-gradient(45deg, #C0993D 0%, #D8A824 52%, #FCF49C 100%);
 }
 
@@ -389,6 +391,20 @@ a:hover{
 .primary-button.white {
   background-color: #fff;
   color: var(--primary-color);
+}
+
+.primary-button.black {
+  background-color: #000;
+  border-color: #000;
+  font-size: 13px;
+}
+
+.primary-button.black.green {
+  color: #9DFEBC;
+}
+
+.primary-button.black.blue {
+  color: #5AFFEA;
 }
 
 .secondary-button {
