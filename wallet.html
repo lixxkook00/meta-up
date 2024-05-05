@@ -69,7 +69,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-600" href="/saving.html">
+                    <a class="nav-link fw-600" id="saving-tab" data-toggle="pill" href="#saving" role="tab" aria-controls="saving" aria-selected="false">
                         Saving
                     </a>
                 </li>
@@ -226,7 +226,9 @@
             </div>
 
             <div class="tab-pane fade" id="saving" role="tabpanel" aria-labelledby="saving-tab">
-
+                <div class="centering fs-11 mt-4">
+                    No data
+                </div>
             </div>
 
             </div>
@@ -236,7 +238,7 @@
     <!-- NAV -->
     <div class="nav-mobile">
         <div class="nav-mobile-wrapper centering">
-            <a href="#to-home" class="nav-mobile-item">
+            <a href="/home.html" class="nav-mobile-item">
                 <div class="nav-mobile-item-icon">
                     <img src="/assets/images/home-icon.svg" alt="">
                 </div>
@@ -246,14 +248,15 @@
                     <img src="/assets/images/wallet-icon.svg" alt="">
                 </div>
             </a>
-            <a href="/home.html" class="nav-mobile-item">
+            <a href="/mining.html" class="nav-mobile-item">
                 <div class="nav-mobile-item-icon">
                     <img class="idle-ani" src="/assets/images/logo.svg" alt="">
                 </div>
             </a>
-            <a href="/mining.html" class="nav-mobile-item">
+            <a href="/mission.html" class="nav-mobile-item">
                 <div class="nav-mobile-item-icon">
-                    <img src="/assets/images/mining-icon.svg" alt="">
+                    <!-- <img src="/assets/images/mining-icon.svg" alt=""> -->
+                    <i class="fa-solid fa-gift"></i>
                 </div>
             </a>
             <a href="/referrals.html" class="nav-mobile-item">

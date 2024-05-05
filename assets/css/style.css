@@ -658,6 +658,8 @@ button:focus {
 
 .nav-mobile-item-icon {
   max-width: 45px;
+  color: #858585;
+  font-size: 23px;
 }
 
 .header-infor {
@@ -773,6 +775,9 @@ button:focus {
   width: 64px;
 }
 
+.nav-mobile-item.active .nav-mobile-item-icon{
+  color: var(--primary-color);
+}
 
 
 
