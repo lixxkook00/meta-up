@@ -9,6 +9,10 @@
 	background-color: #fff;
 }
 
+.header.gray {
+    background-color: #F7F7F7;
+}
+
 .header-wrapper{
     display: flex;
     align-items: center;
@@ -2980,7 +2984,7 @@ input:focus-visible{
 
 .dashboard-bg{
     min-height: calc(100dvh);
-    padding-top: 70px;
+    padding-top: 63px;
     padding-bottom: 10px;
     /* background-color: #E0E8F3; */
     padding-bottom: 70px;
@@ -3589,6 +3593,10 @@ select:focus-visible{
     color: #00000060 !important;
 }
 
+.gray-text-2 {
+    color: #666666 !important;
+}
+
 .feedback-item-title {
     font-weight: 800;
     margin-top: 10px;
@@ -3797,6 +3805,7 @@ select {
 
 .primary-modal label {
     font-size: 14px;
+    font-weight: 600;
 }
 
 .primary-modal .close {
@@ -3834,14 +3843,25 @@ select {
 }
 .primary-modal-input {
     height: 40px;
-    padding: 4px 8px;
+    padding: 4px 14px;
     border: none;
-    background-color: #03663042;
+    background-color: #F7F7F7;
     border-radius: 10px;
     flex: 1;
     color: #ffffff;
     font-size: 14px;
-    letter-spacing: 1px;
+    color: #000;
+    letter-spacing: 0px;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
+    -webkit-appearance: none;
+    font-weight: 500;
+    -moz-appearance: none;
+}
+
+.primary-modal-input.select {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='blue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
 }
 
 .modal-dialog-value {
@@ -4280,4 +4300,56 @@ select {
 
 .item-b-10+.item-b-10 {
     margin-top: 20px;
+}
+
+.wallet-detail-box {
+    padding: 20px 20px 32px;
+}
+
+.wallet-detail-box {
+    background-color: #F7F7F7;   
+}
+
+.wallet-detail-button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px !important;
+}
+
+.swap {
+    display: flex;
+    position: relative;
+    width: 60px;
+    height: 38px;
+}
+
+.swap .avt {
+    width: auto;
+    height: 38px;
+    width: 38px;
+}
+
+.swap .avt:nth-child(2) {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.popup-qr {
+    height: 76px;
+    width: 76px;
+}
+
+.sub-primary-modal-input {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 100px !important;
+    height: 30px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #EFEFEF;
+    min-width: unset;
 }

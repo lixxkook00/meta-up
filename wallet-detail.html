@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.svg">
+    <title>Wallet Detail</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-6.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- BACK HEADER -->
+    <div class="header gray back justify-content-start">
+        <div class="header-wrapper container">
+            <a href="/wallet.html" class="back-icon">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+
+            <div class="back-title">
+                ATH
+            </div>
+
+            <div class="space"></div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="dashboard-bg">
+        <div class="wallet-detail-box">
+            <div class="centering flex-column">
+                <div class="avt size-64">
+                    <img src="/assets/images/slide-2.png" alt="">
+                </div>
+
+                <div class="fs-20 primary-text fw-600 mt-3">
+                    1,342.00
+                </div>
+                <div class="fs-13 fw-600 mt-1">
+                    $ 1,342,000.00
+                </div>
+            </div>
+
+            <div class="grid grid-2 primary-box primary-box-color primary-box--black w-100 mt-4">
+                <div class="token-infor">
+                    <div class="box-title text-center">
+                        AVAILABLE BALANCE
+                    </div>
+                    <div class="fs-20 fw-600 text-center mt-2">
+                        821.00
+                    </div>
+                </div>
+
+                <div class="token-infor">
+                    <div class="box-title text-center">
+                        LOCKED BALANCE
+                    </div>
+                    <div class="fs-20 fw-600 text-center mt-2">
+                        821.00
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-2 mt-4">
+                <div data-toggle="modal" data-target="#depositModal" class="wallet-detail-button primary-button w-100">
+                    Deposit
+                </div>
+                <div data-toggle="modal" data-target="#withdrawModal" class="wallet-detail-button secondary-button w-100">
+                    Withdraw
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="fs-22 fw-600 mt-3">
+                History
+            </div>
+
+            <div class="fs-13 fw-600 mt-3">
+                18/04/2024
+            </div>
+
+            <div class="referrals-item d-flex align-items-center justify-content-between mt-3">
+                <div class="d-flex align-items-center">
+                    <div class="swap">
+                        <div class="referrals-icon centering avt">
+                            <img src="/assets/images/slide-2.png" alt="">
+                        </div>
+                        <div class="referrals-icon centering avt">
+                            <img src="/assets/images/slide-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="referrals-name">
+                        <div class="fs-11 fw-600">
+                            Swap
+                        </div>
+                        <div class="fs-13 fw-600">
+                            -
+                        </div>
+                    </div>
+                </div>
+                <div class="fs-13 fw-600 primary-text">
+                    
+                </div>
+            </div>
+
+            <div class="referrals-item d-flex align-items-center justify-content-between mt-3">
+                <div class="d-flex align-items-center">
+                    <div class="referrals-icon centering avt">
+                        <img src="/assets/images/slide-2.png" alt="">
+                    </div>
+                    <div class="referrals-name">
+                        <div class="fs-11 fw-600">
+                            Sent
+                        </div>
+                        <div class="fs-13 fw-600">
+                            To 0x8601...9718
+                        </div>
+                    </div>
+                </div>
+                <div class="fs-13 fw-600 primary-text">
+                    + 1,600.82 ATH
+                </div>
+            </div>
+
+            <div class="fs-13 fw-600 mt-3">
+                17/04/2024
+            </div>
+
+            <div class="referrals-item d-flex align-items-center justify-content-between mt-3">
+                <div class="d-flex align-items-center">
+                    <div class="referrals-icon centering avt">
+                        <img src="/assets/images/slide-2.png" alt="">
+                    </div>
+                    <div class="referrals-name">
+                        <div class="fs-11 fw-600">
+                            Sent
+                        </div>
+                        <div class="fs-13 fw-600">
+                            To 0x8601...9718
+                        </div>
+                    </div>
+                </div>
+                <div class="fs-13 fw-600 primary-text">
+                    + 1,600.82 ATH
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MOBILE NAV -->
+    <div class="nav-mobile nav-mobile-back pb-4 pt-3">
+        <div class="container">
+            <div class="nav-mobile-wrapper centering">
+                <div class="primary-button w-100">
+                    Login
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deposit Popup -->
+    <div class="modal fade" id="depositModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="primary-modal">
+                 <div class="primary-modal-header">
+                    <div class="primary-modal-title fw-600 primary-text">
+                        DEPOSIT
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                 </div>
+                 <div class="primary-modal-content">
+                    <div id="form_withdraw_popup">
+                        <form method="post" novalidate="novalidate" autocomplete="off" id="formPayout">
+                            <input type="hidden" name="txtCurrency" value="XCO">
+                            <input type="hidden" name="token" value="a9dc3b38-0896-4a7a-ad4b-45cca2b11125">
+                            <step data="1" >
+                                <div class="fv-row" id="wrap_input_blockchain">
+                                    <label for="formrow-firstname-input" class="form-label">Choose token</label>
+                                    <div class="position-relative mb-3">
+                                        <select class="primary-modal-input select w-100" name="txtChain">
+                                            <option value="BSC">USDT</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="fv-row" id="wrap_input_blockchain">
+                                    <label for="formrow-firstname-input" class="form-label">Choose Network</label>
+                                    <div class="position-relative mb-3">
+                                        <select class="primary-modal-input select w-100" name="txtChain">
+                                            <option value="BSC">Binance Smart Chain (BEP20)</option>
+                                        </select>
+                                        <small class="form-text primary-text " style="font-size: 10px">Please make sure the network matches, otherwise assets may be lost.</small>
+                                    </div>
+                                </div>
+
+                                <div class="secondary-box d-flex justify-content-between align-items-center mt-2">
+                                    <div class="d-flex align-item-center">
+                                        <div class="popup-qr mr-3">
+                                            <img src="/assets/images/qr.png" alt="">
+                                        </div>
+                                        <div class="d-flex justify-content-center flex-column">
+                                            <div class="fs-12 fw-600">
+                                                Address
+                                            </div>
+                                            <div class="fs-12">
+                                                0xdabcnxmdb81
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="primary-text">
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                    
+                                <div class="centering mt-4">
+                                    <button type="submit" class="primary-button w-100">CONFIRM</button>
+                                </div>
+                            </step>
+                        </form>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Withdraw Popup -->
+    <div class="modal fade" id="withdrawModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="primary-modal">
+                 <div class="primary-modal-header">
+                    <div class="primary-modal-title fw-600 primary-text">
+                        WITHDRAW
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                 </div>
+                 <div class="primary-modal-content">
+                    <div id="form_withdraw_popup">
+                        <form method="post" novalidate="novalidate" autocomplete="off" id="formPayout">
+                            <input type="hidden" name="txtCurrency" value="XCO">
+                            <input type="hidden" name="token" value="a9dc3b38-0896-4a7a-ad4b-45cca2b11125">
+                            <step data="1" >
+                                <div class="fv-row" id="wrap_input_blockchain">
+                                    <label for="formrow-firstname-input" class="form-label">Choose Network</label>
+                                    <div class="position-relative mb-3">
+                                        <select class="primary-modal-input select w-100" name="txtChain">
+                                            <option value="BSC">Binance Smart Chain (BEP20)</option>
+                                        </select>
+                                        <small class="form-text primary-text " style="font-size: 10px">Please make sure the network matches, otherwise assets may be lost.</small>
+                                    </div>
+                                </div>
+
+                                <div class="fv-row">
+                                    <label class="form-label fw-semibold fs-6 mb-1 position-relative" style="width: 100%;">
+                                        Token
+                                    </label>
+                                    <div class="position-relative mb-3">
+                                        <input class="primary-modal-input w-100" placeholder="Amount" name="txtAmount" id="amount" required="" type="number" step="any">
+                                        <select class="sub-primary-modal-input primary-modal-input select w-100" name="txtChain">
+                                            <option value="BSC">USDT</option>
+                                            <option value="BSC">BNB</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="fv-row">
+                                    <label class="form-label fw-semibold fs-6 mb-1 position-relative" style="width: 100%;">
+                                        Address
+                                    </label>
+                                    <div class="position-relative mb-3">
+                                        <input class="primary-modal-input w-100" placeholder="Address" name="txtAmount" id="amount" required="" type="number" step="any">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-2">
+                                    <div class="d-flex align-items-center">
+                                        <div class="m-0">
+                                            <div class="fs-12 gray-text-2">Balance</div>
+                                            <div class="fs-14 fw-600 mt-1">0.0123 ATH</div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="m-0">
+                                            <div class="fs-12 gray-text-2">Gas fee</div>
+                                            <div class="fs-14 fw-600 mt-1">1 HELI</div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="centering mt-4">
+                                    <button type="submit" class="primary-button w-100">WITHDRAW</button>
+                                </div>
+                            </step>
+                        </form>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script>
+    const $query = document.querySelector.bind(document)
+    const $$query = document.querySelectorAll.bind(document)
+</script>
