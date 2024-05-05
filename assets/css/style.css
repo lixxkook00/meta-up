@@ -692,6 +692,31 @@ button:focus {
   font-size: 13px;
 }
 
+.fs-13 {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-40 {
+  font-size: 40px;
+  line-height: 47px;
+}
 
 
 

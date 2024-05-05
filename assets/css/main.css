@@ -4120,18 +4120,6 @@ select {
     max-width: 274px;
 }
 
-.fs-14 {
-    font-size: 14px;
-}
-
-.fs-20 {
-    font-size: 20px;
-}
-
-.fs-25 {
-    font-size: 25px;
-}
-
 .fa-code-input .form-control {
     -webkit-transition: none;
     transition: none;
@@ -4190,6 +4178,31 @@ select {
 .text-black {
     color: #000;
 }
+
+.referrals-content {
+    height: 23vh;
+    overflow-y: scroll;
+}
+
+.referrals-item+.referrals-item {
+    margin-top: 15px;
+}
+
+.referrals-icon {
+    background-color: #00000005;
+    height: 38px;
+    width: 38px;
+    color: var(--primary-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.referral-item-popup {
+    padding: 16px 0;
+    border-bottom: 1px solid #00000008;
+}
+
+
 
 
 
