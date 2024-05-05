@@ -1814,7 +1814,8 @@ select {
 
 .intro-login a:hover,
 .dashboard-bg a:hover {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    opacity: 0.8;
 }
 
 .form .text-start {
@@ -3945,7 +3946,7 @@ select {
 
 .intro-login a:hover,
 .dashboard-bg a:hover {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 .form .text-start {
