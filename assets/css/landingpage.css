@@ -10721,6 +10721,10 @@ label {
   font-size: 45px;
 }
 
+.banner-img {
+  transform: translateY(-0%);
+}
+
 /* Mobile Only */
 @media (max-width: 739px) {
   .about-demo {
