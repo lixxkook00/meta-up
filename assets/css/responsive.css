@@ -388,9 +388,32 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 333px) {
     .main-content{
         width: 100% !important;
+    }
+
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .intro-slide-title {
+        font-size: 30px;
+    }
+
+    .box-value {
+        font-size: 20px;
+    }
+
+    .nav-mobile-item-icon {
+        font-size: 20px;
+        max-width: 30px;
+    }
+
+    .primary-button.sm {
+        font-size: 11px;
+        line-height: 14px;
     }
 }
 

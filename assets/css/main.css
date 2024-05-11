@@ -1768,11 +1768,6 @@ select {
     background-size: cover;
 }
 
-#about {
-    background: linear-gradient(rgba(0, 0, 0, 0.496), rgba(2, 2, 2, 0.35)), url(../images/bg-main.jpg) no-repeat center bottom;
-    background-size: cover;
-}
-
 .primary-button-sm {
     padding: 4px 6px;
     font-size: 16px;
@@ -3564,7 +3559,7 @@ select:focus-visible{
 }
  @keyframes dot-rotation {
 	 50%, 100% {
-		 transform: rotateY(0deg) rotateX(45deg) scaleX(1.2);
+		 transform: rotateY(0deg) rotateX(0deg) scale(1.2);
 	}
 }
  .dot {
@@ -3572,7 +3567,7 @@ select:focus-visible{
 	 justify-content: center;
 	 align-items: center;
 	 flex-basis: 33.33%;
-	 transform: rotateY(-45deg) rotateX(35deg) scaleX(1);
+	 transform: rotateY(0deg) rotateX(0deg) scaleX(1);
 	 animation: dot-rotation 2s infinite;
 }
  .dot::before {
@@ -3897,11 +3892,6 @@ select {
 
 .big-background {
     background: linear-gradient(rgb(0 0 0 / 92%), rgb(2 2 2 / 68%)), url(../images/big-background.jpg) no-repeat left center;
-    background-size: cover;
-}
-
-#about {
-    background: linear-gradient(rgba(0, 0, 0, 0.496), rgba(2, 2, 2, 0.35)), url(../images/bg-main.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
