@@ -322,7 +322,7 @@ $('.odometer').appear(function (e) {
 =============================================*/
 var element = $('#countdown-gampang');
 var finish_d = new Date();
-finish_d.setDate(finish_d.getDate() + 50);
+finish_d.setDate(finish_d.getDate() + 10);
 element.CountdownGampang({
 	rampung: finish_d,
 });

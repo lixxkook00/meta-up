@@ -6578,6 +6578,7 @@ label {
 	position: relative;
 	text-align: center;
 	padding: 55px 50px 60px;
+	background-image: linear-gradient(180deg, rgb(118 107 255 / 20%) 0%, rgb(62 48 228 / 92%) 100%);
 }
 .countdown-area-two .countdown-wrap::before {
 	content: "";
@@ -6735,7 +6736,7 @@ label {
 	display: none;
 }
 .section-title.section-title-two .title {
-	font-size: 45px;
+	font-size: 37px;
 	color: #030B15;
 	line-height: 1.26;
 }
@@ -10698,6 +10699,26 @@ label {
   height: 100%;
   width: 100%;
   padding: 20px 10px 10px;
+}
+
+.token-li {
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.token-li .primary-text {
+  font-weight: 700;
+  color: #8278ff !important;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+.choose-icon-two {
+  color: var(--primary-color);
+  font-size: 45px;
 }
 
 /* Mobile Only */
