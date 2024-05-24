@@ -11,7 +11,7 @@ function preloader() {
 $(window).on('load', function () {
 	preloader();
 	mainSlider();
-	wowAnimation();
+	// wowAnimation();
 });
 
 
@@ -29,12 +29,12 @@ $(window).scroll(function () {
 
 	scrollLink.each(function () {
 
-		var sectionOffset = $(this.hash).offset().top - 105;
+		// var sectionOffset = $(this.hash).offset().top - 105;
 
-		if (sectionOffset <= scrollbarLocation) {
-			$(this).parent().addClass('active');
-			$(this).parent().siblings().removeClass('active');
-		}
+		// if (sectionOffset <= scrollbarLocation) {
+		// 	$(this).parent().addClass('active');
+		// 	$(this).parent().siblings().removeClass('active');
+		// }
 	});
 });
 //jQuery for page scrolling feature - requires jQuery Easing plugin

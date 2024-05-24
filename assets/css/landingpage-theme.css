@@ -1,0 +1,101 @@
+html,
+body,
+.landing-theme {
+  background-color: #07070A;
+  color: #FFF !important;
+}
+
+.footer-area-two .footer-social ul li a {
+  color: #FFF;
+  opacity: 0.5;
+}
+
+.banner-social-wrap ul li {
+  border: none;
+}
+
+.banner-scroll span,
+.about-content-two .about-list ul li,
+.section-title.section-title-two .title,
+.footer-area-two .scroll-up span,
+.footer-area-two .copyright-text p,
+.footer-menu-two .navigation li a {
+  color: #FFF;
+}
+
+.about-content-two p,
+.download-content p {
+  color: #c1cade;
+}
+
+.team-bg,
+.banner-area-two {
+  background-image: url(/assets/images/banner_bg02.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.banner-bg-two,
+.choose-bg,
+.banner-bg-two::before,
+.landing-theme .team-bg::after,
+.landing-theme .team-bg::before,
+.choose-bg::after,
+.choose-bg::before,
+.contact-bg::after, .contact-bg::before {
+  background-image: none;
+}
+
+.banner-social-wrap ul li a {
+  background-color: #564DCA; 
+  border-radius: 50%;
+  color: #fff;
+}
+
+.newsletter-wrap {
+  box-shadow: 8px 8px 75px rgb(199 200 201 / 40%);
+}
+
+.banner-scroll {
+  bottom: 140px;
+}
+
+.token-li {
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+  display: flex;
+}
+
+.token-li-title {
+  width: max-content;
+  min-width: 150px;
+}
+
+.token-li .primary-text {
+  font-weight: 700;
+  color: #8278ff !important;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  display: block;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  overflow: hidden;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+.token-li{
+   font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.token-li:first-child {
+  margin-top: 20px;
+}
+}
