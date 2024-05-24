@@ -10,6 +10,10 @@ body,
   opacity: 0.5;
 }
 
+.roadmap-wrap-two .roadmap-content .title {
+  color: #ffffffd1;
+}
+
 .banner-social-wrap ul li {
   border: none;
 }
